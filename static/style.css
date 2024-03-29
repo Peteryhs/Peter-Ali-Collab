@@ -1,0 +1,81 @@
+.slide-fade-in {
+    animation: slideFadeIn ease 0.5s;
+    -webkit-animation: slideFadeIn ease 0.5s;
+    -moz-animation: slideFadeIn ease 0.5s;
+    -o-animation: slideFadeIn ease 0.5s;
+    -ms-animation: slideFadeIn ease 0.5s;
+  }
+  
+  @keyframes slideFadeIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes slideFadeIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes slideFadeIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes slideFadeIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @-ms-keyframes slideFadeIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center; /* This centers the child horizontally */
+    align-items: center; /* This centers the child vertically, if needed */
+    height: 100vh; /* Example height, adjust as needed */
+    position: relative;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow-y: auto;
+  }
+
